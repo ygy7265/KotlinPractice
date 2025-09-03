@@ -5,11 +5,11 @@ import lombok.extern.slf4j.Slf4j
 import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import org.springframework.stereotype.Component
-@Slf4j
-@Component
+//@Slf4j
+//@Component
 class MethodPractice {
     private val log: Logger = LoggerFactory.getLogger(MethodPractice::class.java)
-    @PostConstruct
+//    @PostConstruct
     fun init() {
         checkUser("test")
         checkUser(1)

@@ -8,4 +8,6 @@ class KotlinPracticeApplication
 
 fun main(args: Array<String>) {
     runApplication<KotlinPracticeApplication>(*args)
+//    HelloWorld hello = new HelloWorld();
+
 }
